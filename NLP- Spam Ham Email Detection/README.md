@@ -13,6 +13,7 @@ A machine learning project to detect spam vs ham emails using NLP techniques and
 ## ☁️ Deploy to Streamlit Cloud
 - Enter any email text in the web app and click **Predict**.
 - See whether it’s predicted as "🚫 Spam" or "✅ Not Spam".
+  
 Ham
 ![ham](ham.png)
 
