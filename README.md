@@ -1,2 +1,1 @@
-# ML
-ML Projects and Practices
+# Machine Learning Projects and Practices
