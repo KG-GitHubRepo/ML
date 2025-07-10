@@ -14,7 +14,10 @@ A machine learning project to detect spam vs ham emails using NLP techniques and
 - Enter any email text in the web app and click **Predict**.
 - See whether it’s predicted as "🚫 Spam" or "✅ Not Spam".
 Ham
-(!ham)[ham.png]
+![ham](ham.png)
+
+spam
+![spam](spam.png)
 
 ## 📄 Dataset
 The dataset should be `emails.csv` with:
