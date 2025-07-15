@@ -62,15 +62,3 @@ pred = model.predict(input_df)[0]
 
 st.subheader("📈 Predicted House Price")
 st.success(f"${pred:,.0f}")
-
-# Feature importance
-st.subheader("🔍 Feature Importance (SHAP)")
-if model_choice == 'XGBoost':
-    explainer = shap.Explainer(model, X_train)
-    shap_values = explainer(X_test)
-
-    fig, ax = plt.subplots(figsize=(10,5))
-    shap.summary_plot(shap_values, X_test, show=False)
-    st.pyplot(fig)
-else:
-    st.info("SHAP plot is available only for XGBoost model.")
