@@ -61,4 +61,4 @@ input_df = pd.DataFrame([features])
 pred = model.predict(input_df)[0]
 
 st.subheader("📈 Predicted House Price")
-st.success(f"${pred:,.0f}")
+st.success(f"{pred:,.0f}")
