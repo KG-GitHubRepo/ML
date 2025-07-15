@@ -5,7 +5,6 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
-import shap
 import matplotlib.pyplot as plt
 
 # Title
