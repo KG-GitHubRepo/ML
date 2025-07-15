@@ -2,7 +2,7 @@
 
 A complete machine learning project to predict house prices, built from scratch and deployed as an interactive web app with Streamlit.
 
-[!House Price Prediction](https://housepricepredyction.streamlit.app/)
+[House Price Prediction](https://housepricepredyction.streamlit.app/)
 ---
 
 ## ✅ App
@@ -24,8 +24,9 @@ A complete machine learning project to predict house prices, built from scratch 
 - Model building & evaluation (Linear Regression & XGBoost)  
 - Hyperparameter tuning with GridSearchCV   
 - Interactive web deployment using Streamlit
+---
 
-  ## 📍 **Final Recommendation & Conclusion**
+## 📍 **Final Recommendation & Conclusion**
 
 - Use advanced ensemble models like XGBoost for better accuracy and robustness
 - Apply thoughtful feature engineering to capture real-world business factors
